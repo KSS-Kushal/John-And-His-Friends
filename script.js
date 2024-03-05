@@ -25,19 +25,17 @@ function PrintDeveloperbyForEach() {
   })
 }
 
-function addData(name, age, profession) {
+function addData() {
   //Write your code here, just console.log
   const myObj = {
-    id: arr.length,
-    name: name,
-    age: age,
-    profession, profession
+    id: 4,
+    name: "susan",
+    age: "20",
+    profession: "intern"
   };
   arr.push(myObj);
   console.log(arr);
 }
-
-addData("susan", "20", "intern");
 
 function removeAdmin() {
   //Write your code here, just console.log
